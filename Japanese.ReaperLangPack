@@ -922,15 +922,15 @@ DD8A091DA2BE9107=エンベロープをメディアレーンに移動
 1D883542B837B976=複数の変更
 
 ######## added in template (section: common):
-;BDB7990C53BBB742=エクスプローラーで表示
-;80BE1395BCF8C169=言語パックをダウンロード
+BDB7990C53BBB742=エクスプローラーで表示
+80BE1395BCF8C169=言語パックをダウンロード
 ;895BB684C276CD93=Preset name:
-;92AE98DDC402CEB8=Tempo:
+92AE98DDC402CEB8=テンポ:
 ;9F89BC3C59A0401C=Pan:
-;1008A7CF2A029751=Width:
+1008A7CF2A029751=幅:
 ;F34BB15DA08E0D6E=Snap relative to grid
 ;00F8AF1A6A14D288=Snap settings
-;B23C47F019452299=Volume:
+B23C47F019452299=ボリューム:
 ;821B3CD32107333D=Track color
 ;155268E8DDFB481C=Curve:
 ;2227C3C30D911E85=Region/Marker Manager
@@ -979,10 +979,10 @@ DD8A091DA2BE9107=エンベロープをメディアレーンに移動
 ;CBB62A841502FD76=Snap note ends to grid
 ;986AFE7AA5793206=Snap notes/CC to grid
 ;6401143383A78B46=Track List
-;76036DCB216B5D75=Highest
-;6EE06EBD8BEB3E6D=Seeking
-;BA66149397E5F1AE=All Channels
-;B599690138EA264A=markers
+76036DCB216B5D75=最高
+6EE06EBD8BEB3E6D=シーク
+BA66149397E5F1AE=全チャンネル
+B599690138EA264A=マーカー
 ;C7B7708D1F9B3C8C=regions
 
 ######## not in template, possibly obsolete (section: common):
@@ -1076,14 +1076,14 @@ BAC64C1B2E060EE5=閉じる
 [DLG_122] ; IDD_CLICKITEMINFO
 3C8EB08515D3081F=クリック音設定
 5A85C634AC6134A5=プロジェクトテンポに追従するクリック
-;^0738C1B2009346F6=BPM:
+0738C1B2009346F6=BPM:
 936661ED243D9147=拍/小節:
 DB11ADF6494C2AA5=2拍目の相対音量:
 8F4537F55B9E0BB5=クリックの音量:
 ;^F685FB3A91025549=Browse...
 ;^C6AD52C994C055E0=- or -
 D840E3186B2B9581=OK
-F09E4B5C35AA14B9=Cancel
+F09E4B5C35AA14B9=キャンセル
 D7323C887B0A2951=適用
 ;^80194C173B470AF3=Save as default
 ;^82881FCAB4663FE9=First beat sample:
@@ -1115,9 +1115,9 @@ BDB7990C53BBB742=エクスプローラで表示...
 8D96C4FE778D9CA7=ソースプロパティ...
 D754112382628869=ソース中の開始位置:
 25E3AFE507E594FC=フェードの長さ (ミリ秒):
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
-;^309B13D6E0AC1A0F=Length:
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
+309B13D6E0AC1A0F=長さ:
 D7323C887B0A2951=適用
 
 [DLG_126] ; IDD_PROJECTSETTINGS_SETTINGS
@@ -1217,7 +1217,7 @@ F09E4B5C35AA14B9=キャンセル
 1475DDFE235E95F6=ソースの情報 (種別不明)
 7299ABCFF393ABD5=設定:
 BAC64C1B2E060EE5=閉じる
-;^6D0BCBC7DDDC55E7=Type:
+6D0BCBC7DDDC55E7=タイプ:
 
 [DLG_136] ; IDD_PREFS_PLAY
 7FF1AA9FBDB6B5BB=再生設定
@@ -1342,20 +1342,20 @@ FE1F26B1104E7C16=プロジェクト履歴に表示する数:
 
 [DLG_140] ; IDD_ALIASLIST
 ;^D9B12705AD844C62=List1
-;^18E4377E5DDC2B7A=Add
-;^F812C7145E261C23=Remove
-;^28450354F52CB7AE=Reset
-;^62C49C467C0C15D3=Load...
-;^925B2CEB12D2D978=Save...
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+18E4377E5DDC2B7A=追加
+F812C7145E261C23=削除
+28450354F52CB7AE=リセット
+62C49C467C0C15D3=読み込み...
+925B2CEB12D2D978=保存...
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 
 [DLG_141] ; IDD_ALIASITEM
 5E9EC9164DF038AD=別名・チャンネルマッピング
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 ;^ABEC79059CAD0B0E=Alias name:
-;^44D4B9BC3E717FAC=Channel:
+44D4B9BC3E717FAC=チャンネル:
 
 [DLG_142] ; IDD_MISSINGFILEPROMPT
 12003D947B908539=見つからないファイルを差し替え...
@@ -1377,8 +1377,8 @@ C05DAD1BAAF106A6=プロジェクトの読み込みを中止
 ;1CDA5524C85D2275=Note: jump to a marker by index by entering m1 or m2 ...
 ;A495A2F91515D33E=Note: jump to a marker/region by name by entering \"name
 ;46D23055008E5DEF=Note: jump to a region by index by entering r1 or r2 ...
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 
 [DLG_145] ; IDD_PREFS_COLORTHEME
 F906EAD1EA9F5DD4=全てのテーマの設定
@@ -1433,7 +1433,7 @@ CCF78439FB636098=コントロールチェンジをリセット
 9E11BA13DE784021=停止時・再生時:
 AF3AC146DC0BBCFA=MIDI デバイスの出力を1スレッドに制限する
 ;^D9B12705AD844C62=List1
-;^F8E6A0B81A77C5E9=Reset all MIDI devices
+F8E6A0B81A77C5E9=全てのMIDIデバイスをリセット
 
 [DLG_154] ; IDD_PREFS_PLUGINS
 46B2F90EFC202F2F=エフェクトウィンドウを自動でサイズ調整:
@@ -1449,7 +1449,7 @@ C7B479203D71CE7C=エフェクトチェーンウィンドウを同時に1つし�
 146BEFCAD3C82C9C=エフェクトウィンドウがすでに開いている時
 20D2538F88926BA7=エフェクトボタンの右クリックメニューに現在のエフェクト一覧を表示する
 0958FACBCAB8ED55=エフェクト履歴の個数:
-;^1EEF91D385882BBE=Plug-ins
+1EEF91D385882BBE=プラグイン
 
 [DLG_155] ; IDD_WAVESINK_CFG
 ;35DF1AFCAFFB37CD=WAV bit depth:
@@ -1486,20 +1486,20 @@ FC22C6EF8E185AD2=出力チャンネルをカスタマイズ
 [DLG_157] ; IDD_PREFS_CSURF
 ;220835B894C9D178=Control surfaces
 ;82A49039D1782EAE=Control surface display update frequency:
-;D5AD81A3A8A8050D=Hz (default: 15)
+D5AD81A3A8A8050D=Hz (初期値: 15)
 ;9F6C638411280BB3=Warn when errors opening surface MIDI devices
 ;0E6F8D5A50F68297=Close control surface devices when stopped and not active application
 ;1BD0786A46F8FDAB=(changes will be applied immediately)
 ;^D9B12705AD844C62=List1
-;^18E4377E5DDC2B7A=Add
-;^B90A279A7257C793=Edit
-;^F812C7145E261C23=Remove
+18E4377E5DDC2B7A=追加
+B90A279A7257C793=編集
+F812C7145E261C23=削除
 
 [DLG_158] ; IDD_SURFACEEDIT
 ;ED0AE3021E21F18C=Control Surface Settings
 ;DFD3E9DC03AA3AAC=Control surface mode:
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 
 [DLG_159] ; IDD_DIRCLEANUP
 ;75501023A0653617=Remove selected files
@@ -1507,31 +1507,31 @@ FC22C6EF8E185AD2=出力チャンネルをカスタマイズ
 ;1A0D36499DEB718F=Send files to recycle bin (safer)
 ;A0B572EEEF748C02=Explore
 ;^C7A89083E6E728EB=Project Directory Cleanup
-;^F09E4B5C35AA14B9=Cancel
+F09E4B5C35AA14B9=キャンセル
 
 [DLG_160] ; IDD_PREFS_EDITORS
 ;DFD1209B13D93BA2=External editors
 ;^D9B12705AD844C62=List1
-;^18E4377E5DDC2B7A=Add
-;^B90A279A7257C793=Edit
-;^F812C7145E261C23=Remove
+18E4377E5DDC2B7A=追加
+B90A279A7257C793=編集
+F812C7145E261C23=削除
 
 [DLG_161] ; IDD_EDITORITEM
-;33A92C8FA5438A7C=Editor Configuration
+33A92C8FA5438A7C=エディタ設定
 ;64B7B388D17F971F=File type (extension):
 ;15A9DE70DEE257AE=Primary Editor:
 ;3367C07971B9528E=(leave blank to set the default editors)
 ;8AD3CF43B42E168A=Secondary Editor:
-;^F685FB3A91025549=Browse...
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+F685FB3A91025549=参照...
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 
 [DLG_163] ; IDD_AUXSENDVIEW
 ;73194AEE0903A46F=Track Settings
 
 [DLG_164] ; IDD_FILECOPY
-;55ED87A57563F586=Copying File...
-;^F09E4B5C35AA14B9=Cancel
+55ED87A57563F586=ファイルをコピー中...
+F09E4B5C35AA14B9=キャンセル
 ;^8C2AEE7E9FE91BE0=to:
 ;^A27E076F9E7EA1E3=Progress1
 
@@ -1540,8 +1540,8 @@ FC22C6EF8E185AD2=出力チャンネルをカスタマイズ
 ;F5114A4E5C642964=Bezier tension:
 ;^5892A20D9BBBE54A=Value:
 ;^F9519A70026F7B52=Position:
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 ;^6D27CBDC5943D7B6=Shape:
 ;^649ECB151A2B4705=Slider1
 
@@ -1558,8 +1558,8 @@ FC22C6EF8E185AD2=出力チャンネルをカスタマイズ
 ;^D405917E36F95CF8=ID:
 ;^941DEA15C4817EEC=Set color...
 ;^E6B5A6A65044C93D=Reset color
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 
 [DLG_170] ; IDD_UNDOHIST
 ;^E5566C4604653F75=Undo History
@@ -1574,7 +1574,7 @@ FC22C6EF8E185AD2=出力チャンネルをカスタマイズ
 ;3EE82E06F8C5EE8E=Selected
 ;94066D118035EEF6=Ignore silence shorter than
 ;F8306E1701F44AAB=Force output format (if disabled, it will be automatically determined per-track):
-;21D9AFD3561EE5AB=Stereo
+21D9AFD3561EE5AB=ステレオ
 ;7CDFF1D2B38BE006=Consolidation Settings
 ;D1717A5C482193AF=Resample mode:
 ;0971916D9810DAA7=seconds (can cause multiple files per track)
@@ -1585,16 +1585,16 @@ FC22C6EF8E185AD2=出力チャンネルをカスタマイズ
 ;^F685FB3A91025549=Browse...
 ;^79DCBE1CDE37B4F3=Entire project
 ;^97D6D411868C112C=Time selection
-;^18C90F7E5DC51FCA=All
+18C90F7E5DC51FCA=全て
 ;^2112CF591DBD3A60=Mono
 ;^0629736B3FAE9E4C=Process
-;^F09E4B5C35AA14B9=Cancel
-;^E19CAC48E2E6EA85=Sample rate:
+F09E4B5C35AA14B9=キャンセル
+E19CAC48E2E6EA85=サンプルレート:
 ;^D858BC186B3FE51D=Hz
-;^2555373B75AA89B2=Output
-;^720CB39E31676E27=Start:
-;^61B7599A40AF0062=End:
-;^309B13D6E0AC1A0F=Length:
+2555373B75AA89B2=出力
+720CB39E31676E27=開始:
+61B7599A40AF0062=終了:
+309B13D6E0AC1A0F=長さ:
 
 [DLG_172] ; IDD_PREFS_EDITCFG
 ;4D8F7A5A9245F919=Editing behavior
@@ -1621,25 +1621,25 @@ FC22C6EF8E185AD2=出力チャンネルをカスタマイズ
 ;84F43D3EDA83383C=SMPTE Generator Properties
 ;12E19CE6C57BB067=Send audio (LTC)
 ;52804D5F8150D65B=Send MIDI (MTC)
-;C32C641180B224AC=Frame rate:
-;B51CE642A76CBDCC=Start time:
+C32C641180B224AC=フレームレート:
+B51CE642A76CBDCC=開始時間:
 ;D0E00ADDA6B5B520=(hh:mm:ss.ff)
 ;FA3F8C074E460084=User value 1 (0-255):
 ;7C4361DB02F85877=User value 2 (0-255):
 ;87C65BA87A344B7A=User value 3 (0-255):
 ;89765A05AAF121ED=User value 4 (0-255):
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
-;^D7323C887B0A2951=Apply
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
+D7323C887B0A2951=適用
 
 [DLG_174] ; IDD_DOCK
 ;^CA2A325DBD0A1A47=Custom1
 
 [DLG_175] ; IDD_FXSAVE
 ;EFFE206ECF958DFF=Save FX preset
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
-;895BB684C276CD93=Preset name:
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
+;895BB684C276CD93=プリセット名:
 
 [DLG_176] ; IDD_REGIONEDIT
 ;3BF9EB56EC01CC0D=Enable for render
@@ -1647,13 +1647,13 @@ FC22C6EF8E185AD2=出力チャンネルをカスタマイズ
 ;^48D899DD92FBC032=Name:
 ;^D405917E36F95CF8=ID:
 ;^F9519A70026F7B52=Position:
-;^309B13D6E0AC1A0F=Length:
+;^309B13D6E0AC1A0F=長さ:
 ;^941DEA15C4817EEC=Set color...
 ;^E6B5A6A65044C93D=Reset color
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 ;^7CE6FE4C74542BB2=Region Manager...
-;^5C973D1CB80B0D9F=Render...
+5C973D1CB80B0D9F=書き出し...
 
 [DLG_178] ; IDD_PREFS_DEFS_TRACK
 E1F42879AE5000D8=トラック・センド・トラックハードウェア出力デフォルト
@@ -1686,8 +1686,8 @@ EFBA29BAE66FE5BD=センド・ハードウェア出力のデフォルトモード
 [DLG_179] ; IDD_FXRENAME
 3155512612C634C9=エフェクト名を変更
 117649134D9E71CF=VSTi として扱う
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 ;^C3EB4B7A6BCD5F3C=New name:
 
 [DLG_180] ; IDD_CPUMETER
@@ -1699,7 +1699,7 @@ EFBA29BAE66FE5BD=センド・ハードウェア出力のデフォルトモード
 BBC37D685496225D=REAPER のバージョンアップ通知
 96C51F86AB14FEEF=ダウンロードページを開く
 744C5C97C5A2BDE1=新しいバージョンをチェック
-;^BAC64C1B2E060EE5=Close
+BAC64C1B2E060EE5=閉じる
 
 [DLG_182] ; IDD_ROUTING
 ;^33212EA04B36D7AA=Routing/Grouping Matrix
@@ -1711,16 +1711,16 @@ BBC37D685496225D=REAPER のバージョンアップ通知
 5AEA2A7B35EDF368=次のテンポマーカーまでテンポを変化させる
 ;^F9519A70026F7B52=Position:
 ;^08329907B4EB8CD0=/
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 
 ######## added in template (section: DLG_184):
 ;FD46A57F2E4690CC=Edit Tempo/Time Signature Marker
 ;51D20F70A5F3EA0A=Start new measure, time signature:
 ;706060D502C7C407=Allow a partial measure before this marker
 ;EB48F1535CB1E2BB=(option disabled because project tempo envelope timebase is set to time)
-;^92AE98DDC402CEB8=Tempo:
-;^10D0E37E59744608=BPM
+92AE98DDC402CEB8=テンポ:
+10D0E37E59744608=BPM
 
 ######## not in template, possibly obsolete (section: DLG_184):
 30CEDD945AFC126E=拍子を設定
@@ -1739,8 +1739,8 @@ C90E73117337026E=メディア変換
 
 [DLG_187] ; IDD_MKDIR
 A7E15C5112B5E088=ディレクトリを作成
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 
 [DLG_188] ; IDD_TRANSPORT
 12D7A4C868C422A9=ステータス
@@ -1756,8 +1756,8 @@ A7E15C5112B5E088=ディレクトリを作成
 [DLG_192] ; IDD_NEWJS
 12DC76C4A3E6583B=新しい JS エフェクト
 518A5045CB8BC7F5=エフェクト名:
-;^D840E3186B2B9581=OK
-;^F09E4B5C35AA14B9=Cancel
+D840E3186B2B9581=OK
+F09E4B5C35AA14B9=キャンセル
 
 [DLG_193] ; IDD_TRACKENVCTL
 20B0625D4151B7F1=アクティブをものを全て表示
@@ -1786,7 +1786,7 @@ EBBAC9C0D73504CC=全て隠す
 ;D20AEAB230E8A915=Snap/Grid Settings
 ;FAB43CC8C74911B4=Grid settings
 ;80A302C4720204A1=Show grid, line spacing:
-;909EA4BEDF903541=minimum:
+909EA4BEDF903541=最小:
 ;6B38B6D690F4D2B5=Grid line Z order:
 ;2D6B74025CB78209=Show dotted grid lines
 ;7D6C52FCAEDCCFCF=Marker line Z order:
@@ -1794,7 +1794,7 @@ EBBAC9C0D73504CC=全て隠す
 ;46CF8C43686D1A27=Snap:
 ;3470CDBB0C544765=Media items
 ;89B473D8A650A4CB=Selection
-;E96D65E8C4F421BD=Cursor
+;E96D65E8C4F421BD=カーソル
 ;0E6C9C7A0BA6B1CD= to selection/markers/cursor
 ;9210A71F28FFEED4= to grid
 ;B0CF6CB38AA786EF=Grid snap settings follow grid visibility
@@ -1887,7 +1887,7 @@ A6EE14AB8179B8D8=個の CPU で利用
 [DLG_206] ; IDD_AUXSENDCTL_CHILD3
 ;FCF3913D3BF1D3E1=Send to Track X
 ;^8F5EC83B8413B57D=REAPERVirtWndDlgHost
-;^AF3196AD6B727ABC=Delete
+AF3196AD6B727ABC=消去
 
 [DLG_209] ; IDD_PREFS_PLUGINS_DX
 ;99AA745451FB03DE=ReWire/Direct-X plug-ins settings
@@ -1897,8 +1897,8 @@ A6EE14AB8179B8D8=個の CPU で利用
 ;3DBA1098DEF1A9A1=Check for ReWire mixer/device on startup (and automatically enter slave mode if present)
 ;229F2B0E80269DE0=Use alternate configuration file (reaper-rewire.ini) when in slave mode
 ;46F9CB03AD3C8F8E=ReWire slave project settings
-;253441B2FCA18BE2=Direct-X (DX)
-;D79B80390AF6D43D=Enable DX plug-ins
+253441B2FCA18BE2=Direct-X (DX)
+D79B80390AF6D43D=Direct-X プラグインを有効化
 ;45CAE2F00AB76386=Scan DX plug-ins on startup (not required)
 ;19F83078F1C040EB=Disable DX plug-ins scanning
 ;6CE8F9E7F0CB5F76=Scan for new DX plug-ins
